@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --color-banca-50: #EFF6FF;
+  --color-banca-100: #DBEAFE;
+  --color-banca-200: #BFDBFE;
+  --color-banca-300: #93C5FD;
+  --color-banca-400: #60A5FA;
+  --color-banca-500: #3B82F6;
+  --color-banca-600: #2563EB;
+  --color-banca-700: #1D4ED8;
+  --color-banca-800: #1E40AF;
+  --color-banca-900: #1E3A8A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

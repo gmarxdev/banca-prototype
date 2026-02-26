@@ -1,0 +1,64 @@
+{
+  "daily": {
+    "passengers": 127,
+    "cargo_shipments": 23,
+    "revenue": 48500,
+    "active_vessels": 8,
+    "trips_completed": 12,
+    "trips_scheduled": 20,
+    "cancelled_trips": 1,
+    "average_occupancy": 72
+  },
+  "weekly": {
+    "passengers": 845,
+    "cargo_shipments": 156,
+    "revenue": 312000,
+    "active_vessels": 9,
+    "trips_completed": 82,
+    "trips_scheduled": 140,
+    "cancelled_trips": 5,
+    "average_occupancy": 68
+  },
+  "monthly": {
+    "passengers": 3420,
+    "cargo_shipments": 612,
+    "revenue": 1250000,
+    "active_vessels": 10,
+    "trips_completed": 340,
+    "trips_scheduled": 600,
+    "cancelled_trips": 18,
+    "average_occupancy": 65
+  },
+  "passenger_trend": [
+    { "date": "Jun 8", "count": 110 },
+    { "date": "Jun 9", "count": 95 },
+    { "date": "Jun 10", "count": 142 },
+    { "date": "Jun 11", "count": 138 },
+    { "date": "Jun 12", "count": 165 },
+    { "date": "Jun 13", "count": 120 },
+    { "date": "Jun 14", "count": 127 }
+  ],
+  "revenue_trend": [
+    { "date": "Jun 8", "amount": 42000 },
+    { "date": "Jun 9", "amount": 38000 },
+    { "date": "Jun 10", "amount": 52000 },
+    { "date": "Jun 11", "amount": 49000 },
+    { "date": "Jun 12", "amount": 58000 },
+    { "date": "Jun 13", "amount": 45000 },
+    { "date": "Jun 14", "amount": 48500 }
+  ],
+  "route_breakdown": [
+    { "route": "Surigao → Dapa", "passengers": 1250, "percentage": 36 },
+    { "route": "Dapa → Surigao", "passengers": 1100, "percentage": 32 },
+    { "route": "Surigao → San Jose", "passengers": 520, "percentage": 15 },
+    { "route": "San Jose → Surigao", "passengers": 380, "percentage": 11 },
+    { "route": "Dapa ↔ Gen. Luna", "passengers": 170, "percentage": 6 }
+  ],
+  "cargo_by_type": [
+    { "type": "Household", "count": 180, "weight": 4500 },
+    { "type": "Agricultural", "count": 150, "weight": 12000 },
+    { "type": "Construction", "count": 80, "weight": 25000 },
+    { "type": "Electronics", "count": 90, "weight": 450 },
+    { "type": "Food", "count": 112, "weight": 3200 }
+  ]
+}

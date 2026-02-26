@@ -1,0 +1,22 @@
+[
+  { "id": "s1", "vessel_id": "v1", "origin_port": "surigao", "destination_port": "dapa", "departure_time": "06:00", "arrival_time": "08:30", "fare": 350, "available_seats": 42, "status": "scheduled" },
+  { "id": "s2", "vessel_id": "v2", "origin_port": "surigao", "destination_port": "dapa", "departure_time": "08:00", "arrival_time": "10:30", "fare": 350, "available_seats": 15, "status": "scheduled" },
+  { "id": "s3", "vessel_id": "v7", "origin_port": "surigao", "destination_port": "dapa", "departure_time": "10:00", "arrival_time": "11:45", "fare": 550, "available_seats": 60, "status": "scheduled" },
+  { "id": "s4", "vessel_id": "v8", "origin_port": "surigao", "destination_port": "dapa", "departure_time": "13:00", "arrival_time": "14:45", "fare": 550, "available_seats": 3, "status": "scheduled" },
+  { "id": "s5", "vessel_id": "v5", "origin_port": "surigao", "destination_port": "dapa", "departure_time": "15:00", "arrival_time": "17:30", "fare": 380, "available_seats": 28, "status": "scheduled" },
+  { "id": "s6", "vessel_id": "v1", "origin_port": "dapa", "destination_port": "surigao", "departure_time": "07:00", "arrival_time": "09:30", "fare": 350, "available_seats": 35, "status": "scheduled" },
+  { "id": "s7", "vessel_id": "v2", "origin_port": "dapa", "destination_port": "surigao", "departure_time": "09:00", "arrival_time": "11:30", "fare": 350, "available_seats": 50, "status": "scheduled" },
+  { "id": "s8", "vessel_id": "v7", "origin_port": "dapa", "destination_port": "surigao", "departure_time": "12:00", "arrival_time": "13:45", "fare": 550, "available_seats": 22, "status": "scheduled" },
+  { "id": "s9", "vessel_id": "v8", "origin_port": "dapa", "destination_port": "surigao", "departure_time": "16:00", "arrival_time": "17:45", "fare": 550, "available_seats": 70, "status": "scheduled" },
+  { "id": "s10", "vessel_id": "v3", "origin_port": "surigao", "destination_port": "san-jose", "departure_time": "07:00", "arrival_time": "09:00", "fare": 280, "available_seats": 30, "status": "scheduled" },
+  { "id": "s11", "vessel_id": "v4", "origin_port": "surigao", "destination_port": "san-jose", "departure_time": "11:00", "arrival_time": "13:00", "fare": 280, "available_seats": 20, "status": "scheduled" },
+  { "id": "s12", "vessel_id": "v3", "origin_port": "san-jose", "destination_port": "surigao", "departure_time": "08:00", "arrival_time": "10:00", "fare": 280, "available_seats": 25, "status": "scheduled" },
+  { "id": "s13", "vessel_id": "v4", "origin_port": "san-jose", "destination_port": "surigao", "departure_time": "14:00", "arrival_time": "16:00", "fare": 280, "available_seats": 38, "status": "scheduled" },
+  { "id": "s14", "vessel_id": "v9", "origin_port": "dapa", "destination_port": "general-luna", "departure_time": "06:30", "arrival_time": "07:15", "fare": 150, "available_seats": 30, "status": "scheduled" },
+  { "id": "s15", "vessel_id": "v9", "origin_port": "general-luna", "destination_port": "dapa", "departure_time": "07:30", "arrival_time": "08:15", "fare": 150, "available_seats": 18, "status": "scheduled" },
+  { "id": "s16", "vessel_id": "v5", "origin_port": "surigao", "destination_port": "dapa", "departure_time": "05:30", "arrival_time": "08:00", "fare": 380, "available_seats": 0, "status": "full" },
+  { "id": "s17", "vessel_id": "v10", "origin_port": "surigao", "destination_port": "san-jose", "departure_time": "09:00", "arrival_time": "11:00", "fare": 300, "available_seats": 45, "status": "scheduled" },
+  { "id": "s18", "vessel_id": "v10", "origin_port": "san-jose", "destination_port": "surigao", "departure_time": "12:00", "arrival_time": "14:00", "fare": 300, "available_seats": 40, "status": "scheduled" },
+  { "id": "s19", "vessel_id": "v9", "origin_port": "dapa", "destination_port": "general-luna", "departure_time": "14:00", "arrival_time": "14:45", "fare": 150, "available_seats": 35, "status": "scheduled" },
+  { "id": "s20", "vessel_id": "v9", "origin_port": "general-luna", "destination_port": "dapa", "departure_time": "15:00", "arrival_time": "15:45", "fare": 150, "available_seats": 32, "status": "scheduled" }
+]

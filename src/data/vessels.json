@@ -1,0 +1,12 @@
+[
+  { "id": "v1", "name": "MV Island Explorer", "operator_id": "op1", "capacity_passengers": 60, "capacity_cargo": 2000, "type": "motorized_banca", "status": "active", "registration_number": "MARINA-2024-0451" },
+  { "id": "v2", "name": "MV Siargao Star", "operator_id": "op1", "capacity_passengers": 80, "capacity_cargo": 3000, "type": "motorized_banca", "status": "active", "registration_number": "MARINA-2024-0452" },
+  { "id": "v3", "name": "MV Wave Rider", "operator_id": "op2", "capacity_passengers": 45, "capacity_cargo": 1500, "type": "motorized_banca", "status": "active", "registration_number": "MARINA-2024-0453" },
+  { "id": "v4", "name": "MV Dinagat Pride", "operator_id": "op2", "capacity_passengers": 50, "capacity_cargo": 1800, "type": "motorized_banca", "status": "active", "registration_number": "MARINA-2024-0454" },
+  { "id": "v5", "name": "MV Ocean Breeze", "operator_id": "op3", "capacity_passengers": 70, "capacity_cargo": 2500, "type": "motorized_banca", "status": "active", "registration_number": "MARINA-2024-0455" },
+  { "id": "v6", "name": "MV Coral Queen", "operator_id": "op3", "capacity_passengers": 55, "capacity_cargo": 2000, "type": "motorized_banca", "status": "maintenance", "registration_number": "MARINA-2024-0456" },
+  { "id": "v7", "name": "MV Pacific Sun", "operator_id": "op4", "capacity_passengers": 90, "capacity_cargo": 3500, "type": "fast_craft", "status": "active", "registration_number": "MARINA-2024-0457" },
+  { "id": "v8", "name": "MV Surigao Express", "operator_id": "op4", "capacity_passengers": 100, "capacity_cargo": 4000, "type": "fast_craft", "status": "active", "registration_number": "MARINA-2024-0458" },
+  { "id": "v9", "name": "MV Blue Horizon", "operator_id": "op5", "capacity_passengers": 40, "capacity_cargo": 1200, "type": "motorized_banca", "status": "active", "registration_number": "MARINA-2024-0459" },
+  { "id": "v10", "name": "MV Mindanao Pearl", "operator_id": "op5", "capacity_passengers": 65, "capacity_cargo": 2200, "type": "motorized_banca", "status": "docked", "registration_number": "MARINA-2024-0460" }
+]

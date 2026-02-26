@@ -1,0 +1,38 @@
+[
+  {
+    "id": "surigao",
+    "name": "Surigao City Port",
+    "code": "SRG",
+    "location": "Surigao City, Surigao del Norte",
+    "coordinates": { "lat": 9.7897, "lng": 125.4950 },
+    "facilities": ["Waiting Area", "Ticketing Counter", "Cargo Terminal", "Restrooms", "Food Stalls"],
+    "status": "operational"
+  },
+  {
+    "id": "dapa",
+    "name": "Dapa Port",
+    "code": "DPA",
+    "location": "Dapa, Siargao Island",
+    "coordinates": { "lat": 9.7567, "lng": 126.0531 },
+    "facilities": ["Waiting Area", "Ticketing Counter", "Cargo Terminal", "Restrooms"],
+    "status": "operational"
+  },
+  {
+    "id": "general-luna",
+    "name": "General Luna Port",
+    "code": "GLN",
+    "location": "General Luna, Siargao Island",
+    "coordinates": { "lat": 9.7790, "lng": 126.1639 },
+    "facilities": ["Waiting Area", "Small Cargo Area", "Restrooms"],
+    "status": "operational"
+  },
+  {
+    "id": "san-jose",
+    "name": "San Jose Port",
+    "code": "SJO",
+    "location": "San Jose, Dinagat Islands",
+    "coordinates": { "lat": 10.0373, "lng": 125.6093 },
+    "facilities": ["Waiting Area", "Ticketing Counter", "Cargo Terminal", "Restrooms"],
+    "status": "operational"
+  }
+]

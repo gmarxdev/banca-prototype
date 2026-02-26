@@ -1,0 +1,7 @@
+[
+  { "id": "op1", "name": "Island Link Maritime Corp.", "contact_person": "Roberto Santos", "mobile": "09171234567", "email": "islandlink@email.com", "vessels": ["v1", "v2"], "status": "verified", "rating": 4.5 },
+  { "id": "op2", "name": "Dinagat Sea Transport", "contact_person": "Maria Garcia", "mobile": "09181234567", "email": "dinagatsea@email.com", "vessels": ["v3", "v4"], "status": "verified", "rating": 4.2 },
+  { "id": "op3", "name": "Siargao Fast Ferry Inc.", "contact_person": "Pedro Reyes", "mobile": "09191234567", "email": "siargaoferry@email.com", "vessels": ["v5", "v6"], "status": "verified", "rating": 4.7 },
+  { "id": "op4", "name": "Pacific Maritime Services", "contact_person": "Ana Cruz", "mobile": "09201234567", "email": "pacificmaritime@email.com", "vessels": ["v7", "v8"], "status": "verified", "rating": 4.8 },
+  { "id": "op5", "name": "Blue Waves Shipping", "contact_person": "Jose Mendoza", "mobile": "09211234567", "email": "bluewaves@email.com", "vessels": ["v9", "v10"], "status": "pending", "rating": 4.0 }
+]
