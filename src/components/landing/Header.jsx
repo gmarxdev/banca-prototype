@@ -3,12 +3,16 @@ import { Link } from 'react-router-dom'
 import { Menu, X, ChevronDown, Ship } from 'lucide-react'
 
 const navLinks = [
-  { label: 'Home', href: '#hero' },
-  { label: 'About', href: '#about' },
-  { label: 'Features', href: '#features' },
-  { label: 'Routes', href: '#routes' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', id: 'hero' },
+  { label: 'About', id: 'about' },
+  { label: 'Features', id: 'features' },
+  { label: 'Routes', id: 'routes' },
+  { label: 'Contact', id: 'contact' },
 ]
+
+function scrollTo(id) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+}
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -19,7 +23,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="#hero" className="flex items-center gap-2">
+          <a onClick={() => scrollTo('hero')} className="flex items-center gap-2 cursor-pointer">
             <div className="w-9 h-9 bg-banca-600 rounded-lg flex items-center justify-center">
               <Ship className="w-5 h-5 text-white" />
             </div>
@@ -31,8 +35,8 @@ export default function Header() {
             {navLinks.map((link) => (
               <a
                 key={link.label}
-                href={link.href}
-                className="text-sm font-medium text-gray-600 hover:text-banca-600 transition-colors"
+                onClick={() => scrollTo(link.id)}
+                className="text-sm font-medium text-gray-600 hover:text-banca-600 transition-colors cursor-pointer"
               >
                 {link.label}
               </a>
@@ -65,8 +69,8 @@ export default function Header() {
               )}
             </div>
             <a
-              href="#portals"
-              className="bg-banca-600 hover:bg-banca-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+              onClick={() => scrollTo('portals')}
+              className="bg-banca-600 hover:bg-banca-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors cursor-pointer"
             >
               Get Started
             </a>
@@ -89,18 +93,16 @@ export default function Header() {
             {navLinks.map((link) => (
               <a
                 key={link.label}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className="block text-sm font-medium text-gray-600 hover:text-banca-600 py-2"
+                onClick={() => { scrollTo(link.id); setMobileOpen(false) }}
+                className="block text-sm font-medium text-gray-600 hover:text-banca-600 py-2 cursor-pointer"
               >
                 {link.label}
               </a>
             ))}
             <hr className="border-gray-100" />
             <a
-              href="#portals"
-              onClick={() => setMobileOpen(false)}
-              className="block w-full text-center bg-banca-600 hover:bg-banca-700 text-white text-sm font-medium px-4 py-2.5 rounded-lg transition-colors"
+              onClick={() => { scrollTo('portals'); setMobileOpen(false) }}
+              className="block w-full text-center bg-banca-600 hover:bg-banca-700 text-white text-sm font-medium px-4 py-2.5 rounded-lg transition-colors cursor-pointer"
             >
               Get Started
             </a>

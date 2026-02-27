@@ -48,14 +48,14 @@ export default function Hero() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <a
-              href="#portals"
-              className="w-full sm:w-auto bg-white text-banca-700 font-semibold px-8 py-3 rounded-lg hover:bg-banca-50 transition-colors shadow-lg shadow-banca-900/20 text-center"
+              onClick={() => document.getElementById('portals')?.scrollIntoView({ behavior: 'smooth' })}
+              className="w-full sm:w-auto bg-white text-banca-700 font-semibold px-8 py-3 rounded-lg hover:bg-banca-50 transition-colors shadow-lg shadow-banca-900/20 text-center cursor-pointer"
             >
               Book a Trip
             </a>
             <a
-              href="#how-it-works"
-              className="w-full sm:w-auto border border-white/30 text-white font-medium px-8 py-3 rounded-lg hover:bg-white/10 transition-colors text-center"
+              onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
+              className="w-full sm:w-auto border border-white/30 text-white font-medium px-8 py-3 rounded-lg hover:bg-white/10 transition-colors text-center cursor-pointer"
             >
               Track Cargo
             </a>
