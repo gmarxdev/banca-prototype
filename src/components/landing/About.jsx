@@ -5,6 +5,7 @@ const partners = [
   { name: 'DOST', full: 'Department of Science and Technology' },
   { name: 'DOT-Caraga', full: 'Department of Tourism - Caraga' },
   { name: 'MARINA', full: 'Maritime Industry Authority' },
+  { name: 'PCG', full: 'Philippine Coast Guard' },
   { name: 'WAVES TBI', full: 'Technology Business Incubator' },
 ]
 
